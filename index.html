@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFoodShop</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">PetFoodShop</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link"><i class="far fa-user"></i></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link"><i class='fas fa-shopping-basket' id="theme-button"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">PetFoodPet</h1>
+                    <h2 class="home__subtitle">Thức ăn cho thú cưng <br> số 1 Việt Nam.</h2>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+
+                <img src="img/1.jpg" alt="" class="home__img">
+            </div>
+        </section>
+        
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">Những thực phẩm tốt<br> dành cho thú cưng</h2>
+                    <p class="about__description">Chúng tôi cung cấp cho khách hàng đa dạng các loại thực phẩm dành cho thú cưng của bạn. Với chất lượng cao và dịch vụ cao cấp nhất tại thị trưởng Việt Nam. </p>
+                </div>
+
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+            </div>
+        </section>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--========== MENU ==========-->
+     <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Special</span>
+        <h2 class="section-title">Menu of the week</h2>
+
+        <div class="menu__container bd-grid">
+            <div class="menu__content">
+                <img src="assets/img/plate1.png" alt="" class="menu__img">
+                <h3 class="menu__name">Barbecue salad</h3>
+                <span class="menu__detail">Delicious dish</span>
+                <span class="menu__preci">$22.00</span>
+                <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+
+            <div class="menu__content">
+                <img src="assets/img/plate2.png" alt="" class="menu__img">
+                <h3 class="menu__name">Salad with fish</h3>
+                <span class="menu__detail">Delicious dish</span>
+                <span class="menu__preci">$12.00</span>
+                <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+            
+            <div class="menu__content">
+                <img src="assets/img/plate3.png" alt="" class="menu__img">
+                <h3 class="menu__name">Spinach salad</h3>
+                <span class="menu__detail">Delicious dish</span>
+                <span class="menu__preci">$9.50</span>
+                <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">PetFoodShop</a>
+                <span class="footer__description">Mèo méo meo</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Pet Food</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                   
+                    <li><a href="#" class="footer__link">Contact us</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Adress</h3>
+                <ul>
+                    <li>Ho Chi Minh City</li>
+                    <li>Viet Nam</li>
+                    <li>113-113-113</li>
+                    <li>petfoodshop.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__end">&#169; 2021 DungTran. All right reserved</p>
+    </footer>
+
+</body>
+</html>
